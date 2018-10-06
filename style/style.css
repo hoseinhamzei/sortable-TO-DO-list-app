@@ -1,0 +1,30 @@
+        .todo{
+            background: #ecf0f1;
+            cursor: pointer;
+            color: #343a40;
+        }
+        
+        .todo:hover{
+            background: #e74c3c;
+            color: white;
+        }
+        
+        .todo:active{
+            cursor: move;
+        }
+        
+        .dlt-btn{
+            display: none;
+        }
+        
+        .todo:hover .dlt-btn{
+            display: block;
+        }
+        
+        .todo p {
+            font-size: 20px;
+        }
+        
+        #nothing{
+            color: #bdc3c7;
+        }
